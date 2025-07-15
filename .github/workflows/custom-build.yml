@@ -2,8 +2,6 @@ name: Stable build & publish
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: '00 22 * * 6'
 
 permissions:
   contents: write
